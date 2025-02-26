@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Projeto</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Listagem e Cadastro</h1>
+        <button class="btn-header">Mudar cor</button>
+    </header>
+
+    <main>
+        <section id="listar">
+            <input placeholder="Pesquisar..." class="input-pesquisar"/>
+            <h2>Listar dados</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-dados"></tbody>
+            </table>
+        </section>
+
+        <section id="cadastrar">
+            <h2>Cadastrar novo</h2>
+            <form id="formulario">
+                <input type="text" id="nome" placeholder="Nome" required>
+                <span id="erro-nome"></span><br>
+                <input type="email" id="email" placeholder="Email" required>
+                <span id="erro-email"></span><br>
+                <button class="btn-enviar" type="button" id="enviar">Enviar</button>
+            </form>
+        </section>
+
+        <div class="info" id="nome">
+            <h2>Elemento DOM</h2>
+        
+            <input type="text" id="itemInput" placeholder="Digite seu nome aqui">
+            <input type="number" id="ageInput" placeholder="Digite sua idade">
+            <button id="addItemBtn">Adicionar Item</button>
+            <ul id="contactList"></ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="data"></span></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

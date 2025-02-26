@@ -1,0 +1,130 @@
+:root {
+    --default-padding: 2rem 9%
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.bg-rosa {
+    background-color: #E50046 !important;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: var(--default-padding);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-header {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.btn-header:hover {
+    background-color: #dedede;
+}
+
+main {
+    padding: var(--default-padding);
+    min-height: 80vh;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.btn-enviar {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.editar-btn {
+    background-color: #003092;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.deletar-btn {
+    background-color: #D84040;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.erro {
+    color: red;
+}
+
+footer {
+    width: 100%;
+}
+footer p {
+    text-align: center;
+}
+
+#cadastrar h2 {
+    margin-bottom: 5px;
+}
+
+.input-pesquisar {
+    width: 350px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.editar-input {
+    width: 350px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
